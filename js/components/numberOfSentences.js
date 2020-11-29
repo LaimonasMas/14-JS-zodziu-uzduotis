@@ -12,6 +12,9 @@ const firstPText = firstP[0].innerHTML;
 const secondPText = secondP[0].innerHTML
 const thirdPText = thirdP[0].innerHTML
 
-console.log(thirdPText);
+
+export {firstPText, secondPText, thirdPText}
+
+
 
 
