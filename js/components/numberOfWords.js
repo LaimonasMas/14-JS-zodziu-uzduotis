@@ -1,29 +1,41 @@
 import { firstPText, secondPText, thirdPText } from "./numberOfSentences.js"
-
-
-
+import { kiekSkaiciuTekste, skaitmenuSkaiciusP1, skaitmenuSkaiciusP2, skaitmenuSkaiciusP3 } from "./howManyNumbersInTheText.js"
 
 function WordCountP1(str) { 
-    return str.split(" ").length;
+    const b = str.split(" ");
+    return b;
   }
-console.log(WordCountP1(firstPText));
+const firstPArray = WordCountP1(firstPText);
+const firstPArrayLength = firstPArray.length;
+
 
 function WordCountP2(str) { 
-    return str.split(" ").length;
+    const b = str.split(" ");
+    return b;
   }
-console.log(WordCountP2(secondPText));
+const secondPArray = WordCountP2(secondPText);
+const secondPArrayLength = secondPArray.length;
 
 
 function WordCountP3(str) { 
-    for (let i=0; i<str.split(" ").length; i++) {
-            console.log(str.split(" ")[i]);
-        }
-    return
+   const b = str.split(" ");
+   return b;
 }
-  
-WordCountP3(thirdPText);
+const thirdPArray = WordCountP3(thirdPText);
+const thirdPArrayLength = thirdPArray.length;
 
-const arrayP3 = WordCountP3(thirdPText);
+const zodziuKiekisP1 = (firstPArrayLength - skaitmenuSkaiciusP1);
+const zodziuKiekisP2 = (secondPArrayLength - skaitmenuSkaiciusP2);
+const zodziuKiekisP3 = (thirdPArrayLength - skaitmenuSkaiciusP3);
+const zodziuKiekisTekste = zodziuKiekisP1 + zodziuKiekisP2 + zodziuKiekisP3;
 
-console.log(arrayP3);
+console.log(zodziuKiekisTekste);
+
+export { zodziuKiekisTekste }
+
+
+
+
+
+
 
