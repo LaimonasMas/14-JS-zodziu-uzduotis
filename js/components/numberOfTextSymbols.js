@@ -8,7 +8,7 @@ const secondPLength = secondP[0].innerHTML.length;
 const thirdPLength = thirdP[0].innerHTML.length;
 const totalSymbols = firstPLength + secondPLength + thirdPLength;
 
-console.log(totalSymbols);
+
 
 
 export { totalSymbols }

@@ -1,6 +1,7 @@
 import { firstPText, secondPText, thirdPText } from "./numberOfSentences.js"
 import { kiekSkaiciuTekste, skaitmenuSkaiciusP1, skaitmenuSkaiciusP2, skaitmenuSkaiciusP3 } from "./howManyNumbersInTheText.js"
 
+
 function WordCountP1(str) { 
     const b = str.split(" ");
     return b;

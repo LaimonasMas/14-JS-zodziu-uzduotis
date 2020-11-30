@@ -19,9 +19,11 @@ import { numberParagraphs } from "./components/numberOfParagraphs.js";
 import { totalSymbols } from "./components/numberOfTextSymbols.js";
 import { kiekSkaiciuTekste } from "./components/howManyNumbersInTheText.js";
 import { zodziuKiekisTekste } from "./components/numberOfWords.js";
+import { totalSentences } from "./components/numberOfSentences.js"
 
 console.log(`Tekste yra: 
-${numberParagraphs} paragrafai, 
+${numberParagraphs} paragrafai,
+${totalSentences} sakiniai,
 ${totalSymbols} tekstiniai simboliai,
 ${kiekSkaiciuTekste} skaičiai,
 ${zodziuKiekisTekste} žodžiai,`);
