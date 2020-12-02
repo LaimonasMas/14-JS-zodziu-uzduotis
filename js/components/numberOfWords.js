@@ -30,8 +30,6 @@ const zodziuKiekisP2 = (secondPArrayLength - skaitmenuSkaiciusP2);
 const zodziuKiekisP3 = (thirdPArrayLength - skaitmenuSkaiciusP3);
 const zodziuKiekisTekste = zodziuKiekisP1 + zodziuKiekisP2 + zodziuKiekisP3;
 
-console.log(zodziuKiekisTekste);
-
 export { zodziuKiekisTekste }
 
 

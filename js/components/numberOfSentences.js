@@ -11,7 +11,7 @@ function wordCountP1(str) {
             sentences += 1;
         }
     }
-    return sentences;
+    return sentences
 }
 
 function wordCountP2(str) {
@@ -23,13 +23,17 @@ function wordCountP2(str) {
     }
     return sentences;
 }
-/* blogai skaiciuoja "g."*/
+/* vistiek blogai skaiciuoja "g."*/
 function wordCountP3(str) {
     let sentences = 0;
     for (let i=0; i<str.length; i++) {
-        if (str[i] === '.' || str[i] === '!' || str[i] === '?') {
+        if (str[i] === 'g.' || str[i] === 'g. ') {
+            sentences -= 1;
+        }
+        if (str[i] === '.' || str[i] === '!' || str[i] === '?' ) {
             sentences += 1;
         }
+
     }
     return sentences;
 }
@@ -38,6 +42,11 @@ const totalSentences = wordCountP1(firstPText) + wordCountP2(secondPText) + word
 
 
 export { firstPText, secondPText, thirdPText, totalSentences }
+
+
+ 
+
+
 
 
 
