@@ -20,7 +20,10 @@ import { totalSymbols } from "./components/numberOfTextSymbols.js";
 import { kiekSkaiciuTekste } from "./components/howManyNumbersInTheText.js";
 import { zodziuKiekisTekste } from "./components/numberOfWords.js";
 import { totalSentences } from "./components/numberOfSentences.js";
-import { allLetterCount } from "./components/numberOfLetters.js"
+import { allLetterCount } from "./components/numberOfLetters.js";
+import { siunciam } from "./components/renderText.js";
+
+
 
 console.log(`Tekste yra: 
 ${numberParagraphs} paragrafai,
